@@ -20,6 +20,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.arbeat.mybankingapps.BottomNavigationBar
+import com.arbeat.mybankingapps.WalletSection
 import com.example.mybankingapps.ui.theme.MyBankingAppsTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
@@ -65,7 +66,7 @@ fun HomeScreen(){
             modifier = Modifier.fillMaxSize()
                 .padding(padding)
         ) {
-//        WalletSection()
+        WalletSection()
 //        CardtSection()
             Spacer(modifier = Modifier.height(16.dp))
 //        FinanceSection()
