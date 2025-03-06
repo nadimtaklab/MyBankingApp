@@ -20,6 +20,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.arbeat.mybankingapps.BottomNavigationBar
 import com.arbeat.mybankingapps.CardSection
+import com.arbeat.mybankingapps.CurrenciesSection
 import com.arbeat.mybankingapps.FinanceSection
 import com.arbeat.mybankingapps.WalletSection
 import com.example.mybankingapps.ui.theme.MyBankingAppsTheme
@@ -68,10 +69,10 @@ fun HomeScreen(){
                 .padding(padding)
         ) {
         WalletSection()
-        CardSection()
+            CardSection()
             Spacer(modifier = Modifier.height(16.dp))
-        FinanceSection()
-//        CurrenciesSection()
+            FinanceSection()
+            CurrenciesSection()
         }
 
     }
